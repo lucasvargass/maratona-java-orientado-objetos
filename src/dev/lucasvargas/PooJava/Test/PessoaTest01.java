@@ -18,8 +18,7 @@ public class PessoaTest01 {
         pessoa.setIdade(scn.nextInt());
 
         System.out.println("===== RESULTADO =====");
-        System.out.println(pessoa.getNome());
-        System.out.println(pessoa.getIdade());
+        pessoa.imprime();
 
 
 

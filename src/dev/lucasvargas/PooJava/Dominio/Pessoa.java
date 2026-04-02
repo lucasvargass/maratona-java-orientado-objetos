@@ -7,8 +7,15 @@ public class Pessoa {
 
 
     public void imprime(){
+
+        // NUNCA COLOCAR GET
+        // DEIXE SOMENTE THIS
+
         System.out.println(this.nome);
         System.out.println(this.idade);
+
+        /*System.out.println(getNome());
+        System.out.println(getIdade());*/
     }
 
     public void setNome(String nome) {
