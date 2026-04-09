@@ -6,8 +6,9 @@ public class CarroTest01 {
 
     static void main() {
 
+        Carro.setVelociadeLimite(250);
+
         Carro carro1 = new Carro("FIAT", 150);
-        carro1.setVelociadeLimite(180);
         carro1.imprime();
 
         Carro carro2 = new Carro("BMW", 280);
