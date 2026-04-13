@@ -19,7 +19,7 @@ public class Escola {
         if (professors == null) return;
         for (Professor professor : professors){
             System.out.println("Professor: " + professor.getNome());
-            System.out.println("Materia: " + professor.getMateria());
+            System.out.println("Materia: " + professor.getEspecialidade());
         }
     }
 
