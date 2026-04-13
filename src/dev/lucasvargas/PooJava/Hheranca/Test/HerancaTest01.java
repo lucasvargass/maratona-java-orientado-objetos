@@ -32,6 +32,7 @@ public class HerancaTest01 {
 
         System.out.println("===== FUNCIONARIO =====");
         funcionario.imprime();
+        funcionario.relatorioPagamento();
 
 
     }

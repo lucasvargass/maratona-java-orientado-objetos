@@ -1,9 +1,9 @@
 package dev.lucasvargas.PooJava.Hheranca.Dominio;
 
 public class Pessoa {
-    private String nome;
-    private String cfp;
-    private Endereco endereco;
+    protected String nome;
+    protected String cfp;
+    protected Endereco endereco;
 
     public void imprime(){
         System.out.println("Nome: " + this.nome);
