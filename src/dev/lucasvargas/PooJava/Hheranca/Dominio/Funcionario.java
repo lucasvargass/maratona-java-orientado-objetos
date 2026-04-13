@@ -3,6 +3,11 @@ package dev.lucasvargas.PooJava.Hheranca.Dominio;
 public class Funcionario extends Pessoa{
     private double salario;
 
+    public void imprime(){
+        super.imprime();
+        System.out.println("Salario: " + this.salario);
+    }
+
     public double getSalario() {
         return salario;
     }
