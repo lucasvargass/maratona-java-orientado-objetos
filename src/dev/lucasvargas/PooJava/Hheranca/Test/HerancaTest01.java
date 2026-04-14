@@ -16,16 +16,14 @@ public class HerancaTest01 {
         endereco.setRua("Rua Itapage");
         endereco.setCep("24722-180");
 
-        Pessoa pessoa = new Pessoa();
-        pessoa.setNome("LUCAS");
+        Pessoa pessoa = new Pessoa("LUCAS");
         pessoa.setCfp("999.999.999-200");
         pessoa.setEndereco(endereco);
 
         System.out.println("===== PESSOA =====");
         pessoa.imprime();
 
-        Funcionario funcionario = new Funcionario();
-        funcionario.setNome("João");
+        Funcionario funcionario = new Funcionario("João");
         funcionario.setCfp("111.222.333-44");
         funcionario.setSalario(1600);
         funcionario.setEndereco(endereco);
