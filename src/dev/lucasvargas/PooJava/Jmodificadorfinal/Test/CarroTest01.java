@@ -1,6 +1,7 @@
 package dev.lucasvargas.PooJava.Jmodificadorfinal.Test;
 
 import dev.lucasvargas.PooJava.Jmodificadorfinal.dominio.Carro;
+import dev.lucasvargas.PooJava.Jmodificadorfinal.dominio.Ferrari;
 
 public class CarroTest01 {
     static void main() {
@@ -12,6 +13,10 @@ public class CarroTest01 {
         System.out.println(carro.COMPRADOR);
         carro.COMPRADOR.setNome("LUCAS VARGAS");
         System.out.println(carro.COMPRADOR);
+
+        Ferrari ferrari = new Ferrari();
+        ferrari.setNome("LUCAS VARGAS");
+        ferrari.imprime();
 
 
     }
