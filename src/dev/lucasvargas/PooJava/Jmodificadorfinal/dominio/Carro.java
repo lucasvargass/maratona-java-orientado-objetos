@@ -3,6 +3,7 @@ package dev.lucasvargas.PooJava.Jmodificadorfinal.dominio;
 public class Carro {
     private String nome;
     public static final double VELOCIADADE_LIMITE = 250;
+    public final Comprador COMPRADOR = new Comprador();
 
     /*{
         VELOCIADADE_LIMITE = 250;
