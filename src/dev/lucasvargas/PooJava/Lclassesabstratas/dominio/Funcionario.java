@@ -9,5 +9,8 @@ public abstract class Funcionario {
         this.nome = nome;
         this.salario = salario;
         this.cargo = cargo;
+        calcularBonus();
     }
+
+    public abstract void calcularBonus();
 }
